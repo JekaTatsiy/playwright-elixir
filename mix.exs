@@ -46,7 +46,7 @@ defmodule Playwright.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:cowlib, "~> 2.8.0"},
+      {:cowlib, ">= 2.8.0"},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.1", only: [:dev, :test], runtime: false},
       {:ex_doc, "~> 0.25", only: :dev, runtime: false},
